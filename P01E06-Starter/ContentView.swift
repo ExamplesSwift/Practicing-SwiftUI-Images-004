@@ -34,7 +34,7 @@ struct ContentView: View {
 //      Spacer()
       
       Image("Ray")
-      .resizable()
+        .resizable(capInsets: EdgeInsets(), resizingMode: .tile)
       .scaledToFit()
         .mask(Image("Mascot").resizable())
       .padding(.horizontal)
