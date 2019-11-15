@@ -37,6 +37,7 @@ struct ContentView: View {
       .resizable()
       .scaledToFit()
       .clipShape(Circle())
+        .padding([.leading, .trailing])
       
       
     }
