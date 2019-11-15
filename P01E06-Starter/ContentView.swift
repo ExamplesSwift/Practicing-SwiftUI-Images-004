@@ -36,8 +36,8 @@ struct ContentView: View {
       Image("Ray")
       .resizable()
       .scaledToFit()
-      .clipShape(Circle())
-        .padding([.leading, .trailing])
+      .mask(Image("Mascot"))
+      .padding(.horizontal)
       
       
     }
