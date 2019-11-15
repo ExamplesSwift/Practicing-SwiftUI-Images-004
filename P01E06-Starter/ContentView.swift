@@ -36,6 +36,7 @@ struct ContentView: View {
       Image("Ray")
         .resizable(capInsets: EdgeInsets(), resizingMode: .tile)
       .scaledToFill()
+        .saturation(0.7)
       .padding(.horizontal)
       
       
