@@ -35,7 +35,7 @@ struct ContentView: View {
       
       Image("Ray")
       .resizable()
-        .aspectRatio(contentMode: .fill)
+      .scaledToFit()
       
       
     }
