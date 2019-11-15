@@ -37,6 +37,7 @@ struct ContentView: View {
         .resizable(capInsets: EdgeInsets(), resizingMode: .tile)
       .scaledToFill()
         .saturation(0.7)
+      .contrast(100)
       .padding(.horizontal)
       
       
