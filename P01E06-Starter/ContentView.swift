@@ -31,6 +31,7 @@ import SwiftUI
 struct ContentView: View {
   var body: some View {
     Image("Ray")
+    .resizable()
   }
 }
 
@@ -39,6 +40,8 @@ struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     Group {
       ContentView()
+      ContentView()
+      .previewDevice("iPhone SE")
     }
     
   }
