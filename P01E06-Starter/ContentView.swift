@@ -38,8 +38,9 @@ struct ContentView: View {
       .scaledToFill()
         .saturation(0.7)
       .contrast(100)
-      .padding(.horizontal)
-      
+      .hueRotation(Angle(degrees: 300))
+        .padding([.horizontal, .vertical])
+        .edgesIgnoringSafeArea([.top, .bottom])
       
     }
   }
