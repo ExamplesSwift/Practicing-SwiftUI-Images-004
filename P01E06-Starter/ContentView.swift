@@ -32,6 +32,7 @@ struct ContentView: View {
   var body: some View {
     Image("Ray")
     .resizable()
+      .aspectRatio(contentMode: .fit)
   }
 }
 
